@@ -1,0 +1,44 @@
+@media(min-width: 576px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+body {
+    text-align: center;
+}
+#menu {
+    padding-top: 15px;
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.navbar-brand {
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.navbar {
+    background-color: darkgoldenrod;
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+h2 {
+    color: darkred;
+}
+#Chicken, #Beef, #Sushi {
+    background-color: darkgoldenrod;
+    border: 2px solid darkred;
+}
+.nav-link {
+    color: darkred;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.navbar-toggler, .navbar-toggler-icon {
+    border: 1px solid darkred;
+}
+.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
